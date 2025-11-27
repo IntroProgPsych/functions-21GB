@@ -10,3 +10,14 @@
 # Output: 25
 
 # Write your code here:
+
+n = int(input("Please type in a number: "))
+
+def square(n):
+    return n * n 
+
+def feedback():
+    print("Input: ", n)
+    print("Output: ", square(n))
+
+feedback()
